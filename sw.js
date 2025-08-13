@@ -2,6 +2,7 @@ const CACHE_NAME = 'pwa-task-list-v1';
 const urlsToCache = [
     '/pwa2/',
     '/pwa2/index.html',
+    '/pwa2/sobre.html',
     '/pwa2/script.js',
     '/pwa2/style.css',
     '/pwa2/manifest.json',
@@ -26,4 +27,5 @@ self.addEventListener('fetch', event => {
             })
     );
 });
+
 
